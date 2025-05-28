@@ -20,20 +20,7 @@ Welcome to the backend of **MyVidCan**, a YouTube-inspired video-sharing platfor
 
 ## 📁 Project Structure
 
-backend/
-├── controllers/           # Route handler functions (e.g., userController.js)
-├── models/                # Mongoose schemas and models (e.g., userModel.js)
-├── routes/                # Express route definitions (e.g., userRoutes.js)
-├── utils/                 # Utility classes and functions
-│   ├── asyncHandler.util.js
-│   ├── ApiResponse.util.js
-│   └── ApiError.util.js
-├── config/                # Configuration files (e.g., db.js for database connection)
-├── middleware/            # Custom middleware functions
-├── .env                   # Environment variables
-├── .gitignore             # Git ignore file
-├── package.json           # Project metadata and dependencies
-└── server.js              # Entry point of the application
+<pre lang="markdown"> ```bash backend/ ├── controllers/ # Route handler functions (e.g., userController.js) ├── models/ # Mongoose schemas and models (e.g., userModel.js) ├── routes/ # Express route definitions (e.g., userRoutes.js) ├── utils/ # Utility classes and functions │ ├── asyncHandler.util.js │ ├── ApiResponse.util.js │ └── ApiError.util.js ├── config/ # Configuration files (e.g., db.js for database connection) ├── middleware/ # Custom middleware functions ├── .env # Environment variables ├── .gitignore # Git ignore file ├── package.json # Project metadata and dependencies └── server.js # Entry point of the application ``` </pre>
 
 
 ---
